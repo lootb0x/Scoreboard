@@ -1,0 +1,16 @@
+public Scoreboard
+{
+    private String TeamOne;
+    private String TeamTwo;
+
+    public Scoreboard(String one, String two)
+    {
+        teamOne = one;
+        teamTwo = two;
+    }
+    public String getScore()
+        {
+            return Null;
+        }
+
+}
