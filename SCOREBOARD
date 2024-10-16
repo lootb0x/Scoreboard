@@ -1,7 +1,10 @@
-public Scoreboard
+public class Scoreboard
 {
     private String TeamOne;
     private String TeamTwo;
+    private int scoreOne;
+    private int scoreTwo;
+    private String activeTeam
 
     public Scoreboard(String one, String two)
     {
