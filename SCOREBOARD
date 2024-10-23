@@ -1,11 +1,13 @@
 public class Scoreboard
 {
-    private String TeamOne;
-    private String TeamTwo;
+    private String teamOne;
+    private String teamTwo;
     private int scoreOne;
     private int scoreTwo;
-    private String activeTeam
-
+    private String activeTeam;
+    teamOne = one;
+    teamTwo = two;
+    activeTeam = TeamOne;
     public Scoreboard(String one, String two)
     {
         teamOne = one;
@@ -13,7 +15,11 @@ public class Scoreboard
     }
     public String getScore()
         {
-            return Null;
+            return teamOneScore + "-" + teamTwoScore + "-" + activeTeam;
         }
-
+        public void recordPlay(int score)
+        {
+            
+        }
+    
 }
